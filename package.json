@@ -1,0 +1,9 @@
+ {
+   "name": "express-app",
+   "version": "0.0.0",
+   "description": "express app using static pages",
+   "main": "script.js",
+   "dependencies": {
+    "express": "^4.7.4"
+  }
+ }
