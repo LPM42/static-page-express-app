@@ -5,7 +5,7 @@ var app = express();
 app.use(express.static(__dirname + '/static'));
 
 app.get('/static', function(request, response) {
-  res.sendFile(__dirname + '/static/index.html')
+  res.sendFile(__dirname + '/static/index.html');
 });
 
 var server = http.createServer(app);
